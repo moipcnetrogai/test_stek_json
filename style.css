@@ -1,0 +1,9 @@
+li {
+    list-style-type: none;
+}
+/*li::before.folder {
+    content: "+";
+}*/
+li::before{
+    content: "-"
+}
